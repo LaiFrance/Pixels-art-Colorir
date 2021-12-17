@@ -2,67 +2,69 @@
  margin: 10;
  padding: 0;
  box-sizing: border-box;
- background-color: aquamarine;
+ background-color: rgb(233, 149, 233);
 }
 
+h1 {
+ color: rgb(8, 8, 10);
+ background-color: rgb(146, 75, 179);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 #title{
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  text-align: center;
+ 
+}
+
+#black {
+ background-color: black;
+ 
+}
+
+#purple{
+
+}
+#pink{
+
+}
+
+#blue{
 
 }
 
 #color-palette {
+ position: relative;
+ width: 25%;
+ margin-bottom: 20px;
+ margin-left: 38%;
+ margin-top: 20px;
  display: flex;
  justify-content: center;
  
 }
 
-.color-black{
- margin: 2px;
- background-color: black;
+.color{
+ display: flex;
  border: 1px solid black;
  display: inline-block;
- height: 40px;
-	width: 40px;
+	width: 50px;
+ height: 50px;
+ margin: 20px;
 }
 
-.color-purple {
- margin: 2px;
- background-color: purple;
- border: 1px solid black;
- display: inline-block;
- height: 40px;
-	width: 40px;
-}
-
-.color-pink{
- margin: 2px;
- background-color: pink;
- border: 1px solid black;
- display: inline-block;
- height: 40px;
-	width: 40px;
-}
-
-.color-blue{
- margin: 2px;
- background-color: blue;
- border: 1px solid black;
- display: inline-block;
- height: 40px;
-	width: 40px;
-}
 
 .div{
  
 }
 
+
 #pixel-board{
  
- text-align: center;
- padding: 20px;
- 
+ display: flex;
+ justify-content: center;
+ border: px solid black;
+
 
 }
 
@@ -80,4 +82,55 @@
  height: 40px;
  display: inline-block;
  border: 1px solid black;
+}
+
+#footer{
+ justify-content: center;
+ text-align: center;
+}
+
+#bloco{
+ top: auto;
+ margin: 10px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ padding: 20px;
+}
+
+#clear-board{
+background-color:white; /* white */
+padding: 20px;
+margin: 10px;
+border-radius: 30%;
+border-color: black ;
+ border-style: groove; 
+ display: block;
+ margin-left: auto;   /* centralizar */
+ margin-right: auto;  /* centralizar */
+ 
+}
+.botãolimpar{
+ margin-left: auto;   /* centralizar */
+ margin-right: auto;  /* centralizar */
+background-color:white; /* white */
+padding: 20px;
+margin: 10px;
+border-style: groove; 
+}
+
+.Instruções{
+ background-color:rgb(111, 65, 155);
+ font-family:Arial, Helvetica, sans-serif;
+ font-size: larger;
+ padding: 5px;
+ text-align: center;
+ display: block;
+ 
+}
+
+p{
+ background-color: bisque;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ text-align: center;
+ display: block;
+
 }
