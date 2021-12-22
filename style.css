@@ -111,7 +111,8 @@ navbar {
 }
 
 #pixel-board{
-
+margin-top: 50px;
+margin-left: 550px;
 display: flex;
 
  align-items: center;
