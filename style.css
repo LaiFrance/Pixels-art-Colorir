@@ -1,24 +1,19 @@
 *{
- margin: 10;
+ margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
 
  body{
 background: url(imagens/miranhas.jpg);
-justify-content: center;
-justify-items: center;
-;
-
- }
- body,html{
-  height: 100%;
-  
  }
 
-h1 {
- color: rgb(8, 8, 10);
- font-family: Georgia, 'Times New Roman', Times, serif;
+ h1 {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  color: rgb(8, 8, 10);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #title{
@@ -27,40 +22,46 @@ h1 {
  
 }
 
-#black {
- background-color: black;
- 
+#color-palette {
+ position: relative;
+ display: flex;
+ margin-top: 30px;
+ justify-content: center;
+
 }
 
+#black {
+ background-color: black;
+ border: 1px solid black;
+ width: 40px;
+ height: 40px;
+}
 #gray{
 background-color: rgb(227, 233, 236);
+border: 1px solid black;
+width: 40px;
+ height: 40px;
 }
 #red{
 background-color: rgb(251, 5, 46);
+border: 1px solid black;
+width: 40px;
+ height: 40px;
 }
-
 #blue{
 background-color: rgb(7, 81, 165);
-}
-
-#color-palette {
- position: relative;
- width: 25%;
- margin-bottom: 20px;
- margin-left: 590px;
- display: flex;
- margin-top: 20px;
- justify-content: center;
-
+border: 1px solid black;
+width: 40px;
+ height: 40px;
 }
 
 .color{
  display: flex;
  border: 1px solid black;
  display: inline-block;
-	width: 50px;
- height: 50px;
- margin: 20px;
+	width: 3rem;
+ height: 3rem;
+ margin: 1rem;
 }
 
 .navbar {
@@ -73,44 +74,22 @@ background-color: rgb(7, 81, 165);
  text-align: center;
  border-color: red;
  border: 20px;
- 
-}
-.container{
- background-color:rgb(7, 6, 6);
- width: 600px;
- border-radius: 3px;
-
-}
-.container {
-
- height: 500px;
- width: 450px;
- display: grid;
- grid-template-columns: repeat(5, 1fr); 
- grid-template-rows: repeat(5, 1fr);
- gap: 3px;
- padding:3px;
- margin-left: 570px;
-
 }
 .pixel{
- 
  background-color: white;
- border-radius: 2px;
-
-.container{
- background-color:rgb(7, 6, 6);
- width: 600px;
- border-radius: 3px;
-
-}
-.navbar{
+ width: 40px;
+ height: 40px;
+ border: 1px solid black;
+ display: flex;
+ }
+ 
+navbar {
  padding: 1rem;
  margin-bottom: 1rem;
  display: flex;
  justify-content: center;
  align-items: center;
- margin-left: 400px;
+ margin-left: 300px;
 }
 
 .input{
@@ -121,49 +100,22 @@ background-color: rgb(7, 81, 165);
  text-align: center;
  
 }
-
+ section{
+ }
 
 .color {
- padding: 0 .25em;
- width: 100px;
- margin: 0 1em;
-}
-.container {
- --size:5;
- height: 800px;
- display: grid;
- grid-template-columns: repeat(var(--size), 1fr);
- grid-template-rows: repeat(var(--size), 1fr);
- gap: 3px;
- padding:3px;
-
+ border: black solid 1px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
 }
 
 #pixel-board{
- 
+
  display: flex;
- justify-content: center;
- border: px solid black;
-
-
+ align-items: center;
 }
-
-.pixel-horizontal{
- display: flex;
- justify-content: center;
- border: px solid black;
- 
-}
-
-.pixel{
- 
- background-color: white;
- width: 40px;
- height: 40px;
- display: inline-block;
- border: 1px solid black;
-}
-
 
 #clear-board{
 background-color:white; /* white */
@@ -171,16 +123,11 @@ padding: 20px;
 margin: 10px;
 border-radius: 30%;
 border-color: black ;
- border-style: groove; 
- display: block;
- margin-left: auto;   /* centralizar */
- margin-right: auto;  /* centralizar */
+border-style: groove; 
+display: block;
+margin-left: auto;   /* centralizar */
+margin-right: auto;  /* centralizar */
  
-}
-
-input{
- font-size: 25px;
- background-color: rgb(88, 125, 226);
 }
 
 .btn{
@@ -192,17 +139,7 @@ input{
  justify-content: center;
 }
 
-.container{
- margin-top: 300px;
-margin-right: 100px;
- padding: 20px;
- background-color:rgb(175, 30, 30);
- width: 600px;
- border-radius: 1000px ;
- text-align: center;
- justify-content: center;
- display: flex;
-}
+
 
 .color,.size,.btn {
  width: 200px;
