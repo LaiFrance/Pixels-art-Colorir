@@ -2,12 +2,22 @@
  margin: 10;
  padding: 0;
  box-sizing: border-box;
- background-color: rgb(233, 149, 233);
 }
+
+ body{
+background: url(imagens/miranhas.jpg);
+justify-content: center;
+justify-items: center;
+;
+
+ }
+ body,html{
+  height: 100%;
+  
+ }
 
 h1 {
  color: rgb(8, 8, 10);
- background-color: rgb(146, 75, 179);
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -22,26 +32,26 @@ h1 {
  
 }
 
-#purple{
-
+#gray{
+background-color: rgb(227, 233, 236);
 }
-#pink{
-
+#red{
+background-color: rgb(251, 5, 46);
 }
 
 #blue{
-
+background-color: rgb(7, 81, 165);
 }
 
 #color-palette {
  position: relative;
  width: 25%;
  margin-bottom: 20px;
- margin-left: 38%;
- margin-top: 20px;
+ margin-left: 590px;
  display: flex;
+ margin-top: 20px;
  justify-content: center;
- 
+
 }
 
 .color{
@@ -53,11 +63,81 @@ h1 {
  margin: 20px;
 }
 
+.navbar {
+ margin-left: 570px;
+ margin-top: 50px;
+ background-color:rgb(248, 232, 232);
+ width: 450px;
+ border-radius: 5px;
+ justify-content: center;
+ text-align: center;
+ border-color: red;
+ border: 20px;
+ 
+}
+.container{
+ background-color:rgb(7, 6, 6);
+ width: 600px;
+ border-radius: 3px;
 
-.div{
+}
+.container {
+
+ height: 500px;
+ width: 450px;
+ display: grid;
+ grid-template-columns: repeat(5, 1fr); 
+ grid-template-rows: repeat(5, 1fr);
+ gap: 3px;
+ padding:3px;
+ margin-left: 570px;
+
+}
+.pixel{
+ 
+ background-color: white;
+ border-radius: 2px;
+
+.container{
+ background-color:rgb(7, 6, 6);
+ width: 600px;
+ border-radius: 3px;
+
+}
+.navbar{
+ padding: 1rem;
+ margin-bottom: 1rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: 400px;
+}
+
+.input{
+ height: 50px;
+ padding: 0 1em;
+ border-color: rgb(7, 6, 6);
+ border-radius:2px ;
+ text-align: center;
  
 }
 
+
+.color {
+ padding: 0 .25em;
+ width: 100px;
+ margin: 0 1em;
+}
+.container {
+ --size:5;
+ height: 800px;
+ display: grid;
+ grid-template-columns: repeat(var(--size), 1fr);
+ grid-template-rows: repeat(var(--size), 1fr);
+ gap: 3px;
+ padding:3px;
+
+}
 
 #pixel-board{
  
@@ -84,17 +164,6 @@ h1 {
  border: 1px solid black;
 }
 
-#footer{
- justify-content: center;
- text-align: center;
-}
-
-#bloco{
- top: auto;
- margin: 10px;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- padding: 20px;
-}
 
 #clear-board{
 background-color:white; /* white */
@@ -108,29 +177,35 @@ border-color: black ;
  margin-right: auto;  /* centralizar */
  
 }
-.botãolimpar{
- margin-left: auto;   /* centralizar */
- margin-right: auto;  /* centralizar */
-background-color:white; /* white */
-padding: 20px;
-margin: 10px;
-border-style: groove; 
+
+input{
+ font-size: 25px;
+ background-color: rgb(88, 125, 226);
 }
 
-.Instruções{
- background-color:rgb(111, 65, 155);
- font-family:Arial, Helvetica, sans-serif;
- font-size: larger;
- padding: 5px;
+.btn{
+ width: 200px;
+ height: 50px;
+ border-radius: 50px;
+ border-color: red;
  text-align: center;
- display: block;
- 
+ justify-content: center;
 }
 
-p{
- background-color: bisque;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.container{
+ margin-top: 300px;
+margin-right: 100px;
+ padding: 20px;
+ background-color:rgb(175, 30, 30);
+ width: 600px;
+ border-radius: 1000px ;
  text-align: center;
- display: block;
+ justify-content: center;
+ display: flex;
+}
 
+.color,.size,.btn {
+ width: 200px;
+ text-align: center;
+ justify-content: center;
 }

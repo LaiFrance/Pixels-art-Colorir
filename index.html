@@ -8,81 +8,54 @@
  <link rel="stylesheet" href="style.css">
  <title>Paleta de cores</title>
 </head>
-
+<body>
 <h1 id="title">Paleta de Cores</h1>
-<div id="color-palette" onclick="clicar()">
- <div id='black'class="color"></div>
- <div id='purple'class="color"></div>
- <div id='pink'class="color"></div>
- <div id= 'blue' class="color"></div>
+<div id="color-palette">
+ <div id='black'onclick="setPenColour('black')"class="color selected"></div>
+ <div id='gray'onclick="setPenColour('gray')"class="color"></div>
+ <div id='red'onclick="setPenColour('red')"class="color"></div>
+ <div id= 'blue'onclick="setPenColour('blue')" class="color"></div>
 
 </div>
 <div id="pixel-board">
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
-</div>
-<div class="pixel-horizontal">
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
-</div>
-<div class="pixel-horizontal">
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
-</div>
-<div class="pixel-horizontal">
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
-</div>
-<div class="pixel-horizontal">
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
- <div class="pixel"></div>
+ <div class="container">
+ <div class="pixel"onclick='colorirpixel(this)'></div> 
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
+ <div class="pixel"onclick='colorirpixel(this)'></div>
 </div>
 
-<p class="botãolimpar">
-<input type="button" value="Limpar"onclick="Limpar()">
-</p>
-
-<section class="Instruções">Instruções de uso</section>
- <p>
- <br> Lorem ipsum dolor sit amet consectetur <br>
- adipisicing elit.<br>
- Voluptatum maxime laboriosam cupiditate porro,<br>
-  nostrum distinctio  reiciendis explicabo quas<br>
-   deserunt saepe error iure quos corrupti  <br>
-   <br>provident expedita. Quam minima adipisci 
-   eveniet. <br>
-</p>
-
-
-<div id="bloco">
- <footer id="footer">
-  <h1>Paleta de cores</h1>
-  <img src="imagens/pixel rainbow heart" alt="pixel rainbow heart" width="100px">
-  <h2>Pixels arts</h2>
+<div class="navbar">
+ <button class="btn">Limpar </button>
+<input type="color" value="black" class="color">
+<input type="number" value="25" class="size">
+<input type="button" name="VQV" value="VQV" >
 </div>
-<p></p>
-
-</footer>
-
-<script defer src="script.js"></script>
-
-<body>
 
 </body>
-
+<script src="script.js"></script>
 </html>
