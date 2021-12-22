@@ -23,11 +23,12 @@ background: url(imagens/miranhas.jpg);
 }
 
 #color-palette {
- position: relative;
- display: flex;
- margin-top: 30px;
- justify-content: center;
-
+position: relative;
+display: flex;
+margin-top: 30px;
+justify-content: center;
+border: 1px solid black;
+background-color: blue;
 }
 
 #black {
@@ -104,16 +105,15 @@ navbar {
  }
 
 .color {
- border: black solid 1px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 10px;
+ border: 1px solid black;
+ display: inline-block;
+ margin: 10px;
 }
 
 #pixel-board{
 
- display: flex;
+display: flex;
+
  align-items: center;
 }
 
