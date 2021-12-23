@@ -107,15 +107,7 @@ width: 40px;
 }
 
 #clear-board{
-background-color:white; /* white */
-padding: 20px;
-margin: 10px;
-border-radius: 30%;
-border-color: black ;
-border-style:groove; 
-display: block;
-margin-left: auto;   /* centralizar */
-margin-right: auto;  /* centralizar */
+
  
 }
 .container {
@@ -148,7 +140,7 @@ justify-content: center;
 align-items: center;
 }
 
-.btn, input{
+#clear-board, input{
  height: 35px;
  padding: 0 1em;
 }
