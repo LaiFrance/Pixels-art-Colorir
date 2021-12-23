@@ -1,9 +1,9 @@
 
 //cores da paleta de cores
 let black = document.getElementsByClassName('color selected')[0].style.background = 'black';
-let secondcolor = document.querySelectorAll('.color')[1].style.background = 'rgb(227, 233, 236)';
-let thirdcolor = document.querySelectorAll('.color')[2].style.background = 'rgb(251, 5, 46)';
-let fourthcolor = document.querySelectorAll('.color')[3].style.background = 'rgb(7, 81, 165)';
+let gray = document.querySelectorAll('.color')[1].style.background = 'rgb(227, 233, 236)';
+let red = document.querySelectorAll('.color')[2].style.background = 'rgb(251, 5, 46)';
+let blue = document.querySelectorAll('.color')[3].style.background = '(7, 81, 165)';
 
 //colorindo pixels (cor preta como cor de entrada)
 
