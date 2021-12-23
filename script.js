@@ -5,7 +5,7 @@ let secondcolor = document.querySelectorAll('.color')[1].style.background = 'rgb
 let thirdcolor = document.querySelectorAll('.color')[2].style.background = 'rgb(251, 5, 46)';
 let fourthcolor = document.querySelectorAll('.color')[3].style.background = 'rgb(7, 81, 165)';
 
-//colorindo pixel cor preta como cor de entrada
+//colorindo pixels (cor preta como cor de entrada)
 
 function colorirpixel(pixel) {
  pixel.style.background = pencolour;
@@ -19,15 +19,18 @@ function setPenColour(color) {
 //criar uma função para selecionar as cores quando clicar
 
 
+
+
 //botao limpar
- botaolimpar=document.getElementById("clear-board")
+ botaolimpar=document.getElementById("clear-board")//localizar id
+ //criar função
 function limparcores(){
-const pixels= document.querySelectorAll(".pixel");
- for (let i=0;i<pixels.length;i+=1){
-  pixels[i].style.backgroundColor = 'rgb(255, 255, 255)';
+const pixels= document.querySelectorAll(".pixel");//seleciona pixels
+ for (let i=0;i<pixels.length;i+=1){ //percorrer pixels
+  pixels[i].style.backgroundColor = 'rgb(255, 255, 255)';// cor branca 
  }
 }
-botaolimpar.addEventListener("click",limparcores)
+botaolimpar.addEventListener("click",limparcores) // adicionar evento (depois olhar pq o value não funcionou e pesquisar sobre o botão reset)
 
 
 

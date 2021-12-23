@@ -17,7 +17,13 @@
   <div id='red' onclick="setPenColour('rgb(251, 5, 46)')" class="color"></div>
   <div id='blue' onclick="setPenColour('rgb(7, 81, 165)')" class="color"></div>
  </div>
- 
+ <div class="navbar">
+  
+  <button id="clear-board">Limpar</button>
+  <input type="color" value="black" class="color">
+  <input type="number" value="25" class="size">
+  <input type="button" name="VQV" value="VQV">
+ </div>
   <div id="pixel-board">
    <div class="container">
    <div class="pixel" onclick='colorirpixel(this)'></div>
@@ -47,13 +53,7 @@
    <div class="pixel" onclick='colorirpixel(this)'></div>
    </div>
   </div>
- <div class="navbar">
-  
-  <button id="clear-board">Limpar</button>
-  <input type="color" value="black" class="color">
-  <input type="number" value="25" class="size">
-  <input type="button" name="VQV" value="VQV">
- </div>
+ 
 
  <script src="script.js"></script>
 </body>
