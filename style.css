@@ -33,33 +33,39 @@ flex-direction: column;
 }
 
 #color-palette {
- 
+ background-color: aliceblue;
+ padding: 20px;
  width: 25%;
  margin-bottom: 20px;
  margin-top: 20px;
  display: flex;
  justify-content: center;
+ border: 1px solid black;
  }
 
 #black {
  background-color: black;
  width: 40px;
  height: 40px;
+ border: 1px solid black;
 }
 #gray{
 background-color: rgb(227, 233, 236);
 width: 40px;
 height: 40px;
+border: 1px solid black;
 }
 #red{
 background-color: rgb(251, 5, 46);
 width: 40px;
 height: 40px;
+border: 1px solid black;
 }
 #blue{
 background-color: rgb(7, 81, 165);
 width: 40px;
  height: 40px;
+ border: 1px solid black;
 }
 
 .color{
@@ -106,10 +112,6 @@ width: 40px;
  border: 1px solid black;
 }
 
-#clear-board{
-
- 
-}
 .container {
 display: grid;
 grid-template-columns: repeat(5,1fr);
