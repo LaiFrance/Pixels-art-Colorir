@@ -13,20 +13,20 @@
  <h1 id="title">Paleta de Cores</h1>
  <div id="color-palette">
 
-  <div id='black' onclick="setPenColour('black')" class="color selected"></div>
+  <div id='black'class="color selected"onclick="setPenColour('black')"></div>
 
-  <div id='gray' onclick="setPenColour('rgb(227, 233, 236)')" class="color"></div>
+  <div id='gray'class="color"onclick="setPenColour('gray')"></div>
 
-  <div id='red' onclick="setPenColour('rgb(251, 5, 46)')" class="color"></div>
-  
-  <div id='blue' onclick="setPenColour('rgb(7, 81, 165)')" class="color"></div>
+  <div id='red' class="color"onclick="setPenColour('red')" ></div>
+
+  <div id='blue'class="color"onclick="setPenColour('blue')"></div>
  </div>
  <div class="navbar">
   
   <button id="clear-board">Limpar</button>
-  <input type="color" value="black" class="color">
-  <input type="number" value="25" class="size">
-  <input type="button" name="VQV" value="VQV">
+  <input type="color" value="black" class="mudarcores">
+  <input id="generate-board" type="number" value="50" class="size">
+  <input id="board-size" type="button" name="VQV" value="VQV">
  </div>
   <div id="pixel-board">
    <div class="container">
@@ -60,6 +60,13 @@
  
 
  <script src="script.js"></script>
+
+ <audio controls>
+  <source src="/musica spider man/[MP3DOWNLOAD.TO] The Tender Box - Spectacular Spiderman-320k.mp3" type="audio/mpeg">
+  <source src="/musica spider man/[MP3DOWNLOAD.TO] The Tender Box - Spectacular Spiderman-320k.mp3" type="audio/ogg">
+  Seu navegador não suporta áudio tag.
+ </audio>
+
 </body>
 
 

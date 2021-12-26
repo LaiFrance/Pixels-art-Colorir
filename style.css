@@ -2,6 +2,8 @@
  margin: 10;
  padding: 0;
  box-sizing: border-box;
+
+ 
 }
 
 h1 {
@@ -20,6 +22,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+
  }
 
  h1 {
@@ -77,12 +80,7 @@ width: 40px;
 }
 
 .color{
- display: flex;
- border:black solid 1px;
- display: inline-block;
- width: 50px;
- height: 50px;
- margin: 20px;
+ 
 }
 
 
@@ -121,10 +119,11 @@ width: 40px;
 }
 
 .container {
+ --size: 5 ;
 display: grid;
-grid-template-columns: repeat(5,1fr);
-grid-template-rows: repeat(5,1fr);
-}
+grid-template-columns: repeat(var(--size),1fr);
+grid-template-rows: repeat(var(--size),1fr);
+}.
 
 .pixel{
  
@@ -159,4 +158,10 @@ align-items: center;
  padding: 0.25em;
  width: 100px;
  margin: 0 1em;
+}
+
+audio{
+padding: 40px;
+
+
 }

@@ -1,5 +1,10 @@
 
 //cores da paleta de cores
+let black = document.getElementsByClassName('color')[0].style.background = 'black';
+let gray = document.querySelectorAll('.color')[1].style.background = 'gray'
+let red = document.querySelectorAll('.color')[2].style.background = 'red'
+let blue = document.querySelectorAll('.color')[3].style.background = 'blue'
+
 
 
 //colorindo pixels (cor preta como cor de entrada)
@@ -31,4 +36,8 @@ botaolimpar.addEventListener("click",limparcores) // adicionar evento (depois ol
 
 
 
-
+//alterar cores
+botaocores = document.getElementsByClassName ("mudarcores");
+function escolhercores(){
+ 
+}
