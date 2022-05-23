@@ -1,73 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css">
- <title>Paleta de cores</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Art Pixel</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
-<h2>LAISE ESTUDANDO PROGRAMAÇÃO EM CASA </h2>
+
 <body>
- <h1 id="title">Paleta de Cores</h1>
- <div id="color-palette">
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
 
-  <div id='black'class="color selected"onclick="setPenColour('black')"></div>
+  <nav id="navigation">
+    <section>
+      <p class="colorindoText"> Olá Sejam Bem Vindos ao Projeto Pixels Art<br><br><br>
+         click nas cores e Pinte os Quadradros
+        Bracos<br><br><br>
+         também é possível pode adicionar mais Quandrados nos botão(VQV) e Limpar <br><br><br>
+         Vc Também pode Troca as Cores no Botão(TROCA CORES);
+      </p>
+    </section>
 
-  <div id='gray'class="color"onclick="setPenColour('gray')"></div>
+    <section id="color-palette">
+      <div id="black" class="color selected"></div>
+      <div id="color2" class="color"></div>
+      <div id="color3" class="color"></div>
+      <div id="color4" class="color"></div>
+      </div>
+    </section>
 
-  <div id='red' class="color"onclick="setPenColour('red')" ></div>
+  </nav>
+  <section>
+    <button type="button" id="clear-board" title="Limpar">Limpar</button>
+    <input type="number" name="board-size" id="board-size" min="1" max="50" value="">
+    <button type="button" id="generate-board">VQV</button>
+    <button type="button" id="generate-color">Trocar Cores</button>
+  </section>
+  <main id="pixel-board">
 
-  <div id='blue'class="color"onclick="setPenColour('blue')"></div>
- </div>
- <div class="navbar">
-  
-  <button id="clear-board">Limpar</button>
-  <input type="color" value="black" class="mudarcores">
-  <input id="generate-board" type="number" value="50" class="size">
-  <input id="board-size" type="button" name="VQV" value="VQV">
- </div>
-  <div id="pixel-board">
-   <div class="container">
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   <div class="pixel" onclick='colorirpixel(this)'></div>
-   </div>
-  </div>
- 
+    <section>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </section>
 
- <script src="script.js"></script>
+    <section>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </section>
 
- <audio controls>
-  <source src="/musica spider man/[MP3DOWNLOAD.TO] The Tender Box - Spectacular Spiderman-320k.mp3" type="audio/mpeg">
-  <source src="/musica spider man/[MP3DOWNLOAD.TO] The Tender Box - Spectacular Spiderman-320k.mp3" type="audio/ogg">
-  Seu navegador não suporta áudio tag.
- </audio>
+    <section>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </section>
 
+    <section>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </section>
+
+    <section>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </section>
+
+  </main>
+  <script src="/script.js"></script>
 </body>
-
 
 </html>
